@@ -1,7 +1,7 @@
 .heading{
     width: 100%;
-    height: 20vh;
-    border: 1px solid red;
+    height: 150px;
+    border: 1px solid  rgb(7, 86, 7);
     background-color: rgb(7, 86, 7);
 }
 .topsection{
@@ -47,10 +47,11 @@
 }
 .input{
     margin-left: 50px;
-    width: 87%;
+    width: 89%;
     border: none;
     outline: none;
     font-size: 18px;
+    border-radius: 20px;
 }
 .loginsection{
     width: 40px;

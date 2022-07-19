@@ -19,7 +19,7 @@ export default function Navbar(){
                         <Image src="/user.png" width="30" height="30"></Image>
                     </div>
                     <div className={styles.loginsection}>
-                        <Image src="/heart.png" width="30" height="30"></Image>
+                        <Image src="/wishlist.png" width="30" height="30"></Image>
                     </div>
                     <div className={styles.loginsection}>
                         <Image src="/shopping-cart.png" width="30" height="30"></Image>

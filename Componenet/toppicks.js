@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/toppicks.module.css"
 import Rate from "./rating";
-export default function Toppicks() {
+export default function Toppicks({head}) {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -25,7 +25,7 @@ export default function Toppicks() {
   };
   return (
     <div style={{marginTop:"100px"}}>
-        <h1 style={{textAlign:"center"}}>Top Picks For You</h1>
+        <h1 style={{textAlign:"center",marginBottom:"30px"}}>{head}</h1>
       <div style={{ position: "relative" }}>
         <Carousel responsive={responsive} className={styles.maindiv}>
           <div className={styles.card}>
