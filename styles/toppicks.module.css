@@ -1,0 +1,58 @@
+.maindiv{
+    width: 80%;
+    height: 360px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-bottom: 10px;
+}
+.card{
+    width: 85%;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.imagecontainer{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.textSection{
+    width: 50%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+}
+.starSection{
+    width: 50%;
+    height: 20px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+}
+.iteration{
+    width: 70%;
+    height: 45px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    background: hsla(84, 2%, 59%, 0.749);
+}
+.iconsImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    margin-top: 4px;
+    margin-left: 4px;
+}

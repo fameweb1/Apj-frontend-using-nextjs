@@ -1,0 +1,75 @@
+.heading{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
+    background-color: rgb(7, 86, 7);
+}
+.topsection{
+    width: 90%;
+    /* height: 9vh; */
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.imagesection{
+    width: 65px;
+    height: 65px;
+    /* border: 1px solid red; */
+    border-radius: 32.5px;
+}
+.searchsection{
+    width: 70%;
+    height: 7vh;
+    /* border: 1px solid red; */
+    /* margin-right:100px; */
+    margin-top: 10px;
+    border-radius: 15px;
+    display: flex;
+    background-color: white;
+}
+.iconssection{
+    width: 12%;
+    height: 5vh;
+    /* border: 1px solid red; */
+    /* margin-right: 70px; */
+    margin-top: 10px;
+    display: flex;
+}
+.searchicon{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.input{
+    margin-left: 50px;
+    width: 87%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.loginsection{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-left: 15px;
+    /* margin-top: 4px; */
+}
+.menubar{
+    width: 95%;
+    height: 5vh;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    color: white;
+    font-size: 20px;
+    line-height: 1px;
+}

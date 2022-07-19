@@ -1,0 +1,26 @@
+.mainsection{
+    width: 90%;
+    height: 90px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.contentsection{
+    width: 20%;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.imagesection{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.textsection{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid black; */
+}

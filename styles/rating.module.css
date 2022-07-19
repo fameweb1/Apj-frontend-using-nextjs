@@ -1,0 +1,11 @@
+.Conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    font-size: 20px;
+    display: flex;
+}
+.rating{
+    display: none;
+}
