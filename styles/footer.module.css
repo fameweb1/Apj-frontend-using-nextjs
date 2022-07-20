@@ -1,22 +1,163 @@
 .maindiv{
     width: 90%;
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: 90px;
+    background: rgb(250, 245, 245);
 }
 .topsection{
     width: 70%;
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: 20px;
+    display: flex;
 }
 .icon{
     width: 70px;
     height: 70px;
-    border: 1px solid black;
-    border-radius: 35.5px;
+    /* border: 1px solid black; */
+    border-radius: 34.5px;
     margin-top: 15px;
     margin-left: 20px;
+    background: rgb(3, 73, 3);
+}
+.images{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid blue; */
+    border-radius: 34.5px;
+    /* margin-top: 15px; */
+    /* margin-left: 20px; */
+    /* background: rgb(3, 73, 3); */
+}
+.textsection{
+    width: 35%;
+    height: 50px;
+    /* border: 1px solid red;  */
+    margin-top: 25px;
+    margin-left: 20px; 
+}
+.serachsection{
+    width: 58%;
+    height: 30px;
+    /* border: 1px solid red;  */
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 15px; 
+}
+.input{
+    width: 80%;
+    height: 30px;
+    /* border: 1px solid red;  */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    outline: none;
+}
+.button{
+    width: 20%;
+    height: 30px;
+    /* border-radius: 10px; */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(2, 63, 2);
+    color: white;
+}
+.middlesection{
+    width: 90%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contentsection{
+    width: 20%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.firstbox{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+.lastbox{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+}
+.apjiconsection{
+    width: 110%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.apjsocialiconsection{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+.precaution{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.bottomfirst{
+    width: 45%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-left: 40%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.paymenticon{
+    width: 10%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+.paymenticontext{
+    width: 40%;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.paymenticonpaypal{
+    width: 7%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+.bottom{
+    width: 60%;
+    height: 30px;
+    /* border: 1px solid rgb(179, 163, 163); */
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.homeicon{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+.textsectionhome{
+    width: 80%;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+.p{
+    line-height: 1px;
+    font-weight: bold;
 }

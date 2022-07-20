@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "../styles/toppicks.module.css"
 import Rate from "./rating";
+import Head from 'next/head'
 export default function Toppicks({head}) {
   const responsive = {
     superLargeDesktop: {
@@ -25,6 +26,9 @@ export default function Toppicks({head}) {
   };
   return (
     <div style={{marginTop:"100px"}}>
+         <Head>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        </Head>
         <h1 style={{textAlign:"center",marginBottom:"30px"}}>{head}</h1>
       <div style={{ position: "relative" }}>
         <Carousel responsive={responsive} className={styles.maindiv}>
@@ -37,7 +41,11 @@ export default function Toppicks({head}) {
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
             <div className={styles.starSection}>
-                
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
             </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
@@ -60,7 +68,11 @@ export default function Toppicks({head}) {
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
             <div className={styles.starSection}>
-                
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star "></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
             </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
@@ -82,7 +94,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star "></span>
+            <span className="fa fa-star "></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -103,7 +121,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -124,7 +148,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -145,7 +175,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -166,7 +202,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -187,7 +229,13 @@ export default function Toppicks({head}) {
             <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -208,7 +256,13 @@ export default function Toppicks({head}) {
                 <p style={{lineHeight:"1px",textAlign:"center"}}>Silver ring</p>
                 <p  style={{lineHeight:"10px",textAlign:"center"}}>SGD 100</p>
             </div>
-            <div className={styles.starSection}></div>
+            <div className={styles.starSection}>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star checked"></span>
+            <span className="fa fa-star"></span>
+            <span className="fa fa-star"></span>
+            </div>
             <div className={styles.iteration}>
                 <div className={styles.icons}>
                     <img src="/cart.png" className={styles.iconsImage}/>
@@ -223,6 +277,11 @@ export default function Toppicks({head}) {
           </div>
         </Carousel>
       </div>
+      <style jsx>{`
+        .checked {
+            color: orange;
+          }
+      `}</style>
     </div>
   );
 }
